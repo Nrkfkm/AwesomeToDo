@@ -8,7 +8,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 12 * * 1'  # 毎週月曜日の12:00にスキャンを実行
+    - cron: '0 11 * * 1'  # 毎週月曜日の12:00にスキャンを実行
 
 jobs:
   dependency-check:
